@@ -11,6 +11,7 @@
 
 body {
   font-family: var(--main-font);
+  color: var(--color-title);
 }
 
 .link {
@@ -29,7 +30,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
-  line-height: 0, 83;
+  line-height: 0.83;
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -46,7 +47,7 @@ body {
 .info-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -58,7 +59,7 @@ body {
 .tel-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
@@ -75,22 +76,19 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 0, 73;
+  line-height: 0.73;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  background-color: #2f303a;
 }
 
 .madal-btn {
   font-family: "Roboto", inherit;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 0, 53;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 0.53;
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -103,7 +101,7 @@ body {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
-  line-height: 0, 87;
+  line-height: 0.87;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-title);
@@ -113,7 +111,7 @@ body {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
-  line-height: 0, 58;
+  line-height: 0.58;
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
@@ -125,7 +123,7 @@ body {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
-  line-height: 0, 85;
+  line-height: 0.85;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
@@ -137,8 +135,7 @@ body {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
-  line-height: 0, 85;
-  text-align: center;
+  line-height: 0.85;
   letter-spacing: 0.03em;
   color: var(--color-title);
 }
@@ -147,8 +144,7 @@ body {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
-  line-height: 0, 84;
-  text-align: center;
+  line-height: 0.84;
   letter-spacing: 0.03em;
   color: var(--color-title);
 }
@@ -157,8 +153,7 @@ body {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
-  line-height: 0, 84;
-  text-align: center;
+  line-height: 0.84;
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
@@ -171,7 +166,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 0, 83;
+  line-height: 0.83;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
@@ -180,7 +175,7 @@ body {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
-  line-height: 0, 58;
+  line-height: 0.58;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
@@ -189,7 +184,7 @@ body {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
-  line-height: 0, 58;
+  line-height: 0.58;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -199,9 +194,13 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 0, 58;
+  line-height: 0.58;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.foter {
+  background-color: #2f303a;
 }
 
 /* /footer */
@@ -213,7 +212,7 @@ body {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
-  line-height: 0, 61;
+  line-height: 0.61;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
@@ -243,7 +242,7 @@ body {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
-  line-height: 0, 53;
+  line-height: 0.53;
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
