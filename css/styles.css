@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --color-title: #212121;
   --color-text: #757575;
+  --white-color: #ffffff;
 }
 
 /* header */
@@ -67,7 +68,7 @@ body {
   color: var(--accent-color);
 }
 
-/* /header */
+/* / header */
 
 /* hero */
 
@@ -78,7 +79,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .madal-btn {
@@ -91,11 +92,11 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
-/* /hero */
+/* / hero */
 
 /* advantages */
 .advantages-title {
@@ -117,7 +118,7 @@ body {
   color: var(--color-text);
 }
 
-/* /advantages */
+/* / advantages */
 
 /* products company */
 .products-company-title {
@@ -129,7 +130,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-title);
 }
-/* /products company */
+/* / products company */
 
 /* our team */
 .our-team-title {
@@ -162,7 +163,7 @@ body {
   color: var(--color-text);
 }
 
-/* /our team */
+/* / our team */
 
 /* footer */
 
@@ -172,7 +173,7 @@ body {
   font-size: 26px;
   line-height: 0, 83;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .foot-text {
@@ -181,7 +182,7 @@ body {
   font-size: 14px;
   line-height: 0, 58;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .foot-link {
@@ -202,3 +203,48 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* /footer */
+
+/*==================portfolio=============== */
+
+/* filter-btn */
+.btn-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0, 61;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.btn-btn :hover,
+.btn-btn :focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+/* / filter-btn */
+
+/* products */
+
+.prod-title {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 0, 5;
+  letter-spacing: 0.06em;
+  color: var(--color-title);
+}
+
+.prod-text {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0, 53;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+/* / products */
