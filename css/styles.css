@@ -5,6 +5,7 @@
   --color-title: #212121;
   --color-text: #757575;
   --white-color: #ffffff;
+  --bgrnd-color: #2f303a;
 }
 
 /* header */
@@ -28,7 +29,7 @@ body {
 
 .logo-head {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 0.83;
   letter-spacing: 0.03em;
@@ -99,7 +100,7 @@ body {
 /* advantages */
 .advantages-title {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 0.87;
   letter-spacing: 0.03em;
@@ -121,7 +122,7 @@ body {
 /* products company */
 .products-company-title {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 0.85;
   text-align: center;
@@ -133,7 +134,7 @@ body {
 /* our team */
 .our-team-title {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 0.85;
   letter-spacing: 0.03em;
@@ -151,7 +152,7 @@ body {
 
 .our-team-text {
   font-family: var(--main-font);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 0.84;
   letter-spacing: 0.03em;
@@ -173,7 +174,7 @@ body {
 
 .foot-text {
   font-family: var(--main-font);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 0.58;
   letter-spacing: 0.03em;
@@ -182,7 +183,7 @@ body {
 
 .foot-link {
   font-family: var(--main-font);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 0.58;
   letter-spacing: 0.03em;
@@ -191,16 +192,15 @@ body {
 
 .foot-tel {
   font-family: var(--main-font);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 0.58;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.foter {
-  background-color: #2f303a;
+.footer {
+  background-color: var(--bgrnd-color);
 }
 
 /* /footer */
@@ -231,7 +231,7 @@ body {
 
 .prod-title {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 0, 5;
   letter-spacing: 0.06em;
@@ -240,7 +240,7 @@ body {
 
 .prod-text {
   font-family: var(--main-font);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 0.53;
   letter-spacing: 0.03em;
