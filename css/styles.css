@@ -6,6 +6,7 @@
   --color-text: #757575;
   --white-color: #ffffff;
   --bgrnd-color: #2f303a;
+  --qwerty-color: #f5f4fa;
 }
 
 /* header */
@@ -13,6 +14,10 @@
 body {
   font-family: var(--main-font);
   color: var(--color-title);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .link {
@@ -94,6 +99,8 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -220,8 +227,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
-  background-color: #f5f4fa;
+  background-color: var(--qwerty-color);
   cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 .btn-btn :hover,
