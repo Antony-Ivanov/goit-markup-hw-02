@@ -17,7 +17,7 @@ body {
   color: var(--color-title);
 }
 
-.current {
+.current.current {
   color: var(--accent-color);
 }
 
@@ -111,7 +111,6 @@ body {
 
 /* advantages */
 .advantages-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -121,7 +120,6 @@ body {
 }
 
 .advantages-text {
-  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -133,7 +131,6 @@ body {
 
 /* products company */
 .products-company-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -144,8 +141,11 @@ body {
 /* / products company */
 
 /* our team */
+.our-team {
+  background-color: var(--qwerty-color);
+}
+
 .our-team-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -154,7 +154,6 @@ body {
 }
 
 .our-team-specialists {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -163,7 +162,6 @@ body {
 }
 
 .our-team-text {
-  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -185,7 +183,6 @@ body {
 }
 
 .foot-text {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -194,7 +191,6 @@ body {
 }
 
 .foot-link {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -203,7 +199,6 @@ body {
 }
 
 .address-list-item {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -212,7 +207,6 @@ body {
 }
 
 .foot-tel {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -230,6 +224,11 @@ body {
 
 /* filter-btn */
 .btn-btn {
+  background-color: var(--qwerty-color);
+  cursor: pointer;
+}
+
+.btn-text {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -237,8 +236,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
-  background-color: var(--qwerty-color);
-  cursor: pointer;
 }
 
 .modal-btn:hover,
