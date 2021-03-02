@@ -7,6 +7,7 @@
   --white-color: #ffffff;
   --bgrnd-color: #2f303a;
   --qwerty-color: #f5f4fa;
+  --foot-color: rgba(255, 255, 255, 0.6);
 }
 
 /* header */
@@ -185,7 +186,7 @@ body {
 
 .foot-text {
   font-family: var(--main-font);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -194,20 +195,29 @@ body {
 
 .foot-link {
   font-family: var(--main-font);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--foot-color);
+}
+
+.address-list-item {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--foot-color);
 }
 
 .foot-tel {
   font-family: var(--main-font);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--foot-color);
 }
 
 .footer {
