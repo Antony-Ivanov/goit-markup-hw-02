@@ -10,12 +10,12 @@
   --foot-color: rgba(255, 255, 255, 0.6);
 }
 
-/* header */
-
 body {
   font-family: var(--main-font);
   color: var(--color-title);
 }
+
+/* header */
 
 .current.current {
   color: var(--accent-color);
@@ -60,7 +60,12 @@ a {
 .nav-link:focus {
   color: var(--accent-color);
 }
+
 .nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--color-title);
 }
 
@@ -193,7 +198,7 @@ a {
 }
 
 .foot-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -201,7 +206,7 @@ a {
 }
 
 .foot-link {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -209,7 +214,7 @@ a {
 }
 
 .address-list-item {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -217,7 +222,7 @@ a {
 }
 
 .foot-tel {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -236,9 +241,6 @@ a {
 .btn-btn {
   background-color: var(--qwerty-color);
   cursor: pointer;
-}
-
-.btn-text {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -254,8 +256,8 @@ a {
   color: var(--white-color);
 }
 
-.btn-btn :hover,
-.btn-btn :focus {
+.btn-btn:hover,
+.btn-btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
